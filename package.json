@@ -1,0 +1,29 @@
+{
+  "name": "count-management-module",
+  "license": "Apache-2.0",
+  "main": "CountManagement.js",
+  "description": "count-management-module is used to manage counter for specific key passed by the user. It also manage past state of counter for all key through database entry.",
+  "version": "2.0.0",
+  "scripts": {
+    "test": "yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChandrakantThakkarDigiCorp/count-management-module.git"
+  },
+  "keywords": [
+    "count",
+    "management",
+    "module"
+  ],
+  "author": "Chandrakant Thakkar",
+  "bugs": {
+    "url": "https://github.com/ChandrakantThakkarDigiCorp/count-management-module/issues"
+  },
+  "homepage": "https://github.com/ChandrakantThakkarDigiCorp/count-management-module#readme",
+  "dependencies": {
+    "node-database-executor": "*",
+    "node-database-connectors": "*",
+    "debug": "*"
+  }
+}
